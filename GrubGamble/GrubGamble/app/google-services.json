@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "739845740420",
+    "project_id": "grubgamble",
+    "storage_bucket": "grubgamble.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739845740420:android:2ead781911ee28e8f6efd1",
+        "android_client_info": {
+          "package_name": "com.example.grubgamble"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739845740420-tcqrc04ufijdj0t8n5ivbqrb36f6kaqc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARqDn96f0o1frt7IEli-Vvt-E6X1R93KI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739845740420-tcqrc04ufijdj0t8n5ivbqrb36f6kaqc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

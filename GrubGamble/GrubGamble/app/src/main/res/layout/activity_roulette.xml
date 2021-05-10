@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/application_background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RouletteActivity">
+
+    <Button
+        android:id="@+id/btn_spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="119dp"
+        android:text="SPIN" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Wheel Roulette!!"
+        android:textColor="#3BD60F"
+        android:textSize="32dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="122dp"
+        android:text="Select a slot for a chance to win saftey."
+        android:textColor="#B8D60F"
+        android:textSize="32dp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/imRoulette"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/roulette_wheel"
+        />
+
+    <ImageView
+        android:id="@+id/imPointer"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imRoulette"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/roulette_pointer" />
+
+
+</RelativeLayout>

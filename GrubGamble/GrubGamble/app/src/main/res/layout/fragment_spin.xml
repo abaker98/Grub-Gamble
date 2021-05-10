@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE500"
+    tools:context=".SpinFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/buttonSpin"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/spin_button"
+        app:layout_constraintBottom_toTopOf="@+id/buttonFilter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonFilter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/filters_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/bigWheel"
+        android:layout_width="364dp"
+        android:layout_height="375dp"
+        android:contentDescription="@string/wheel"
+        android:src="@drawable/wheel"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSpin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/One"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel" />
+
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="213dp"
+        android:text="@string/Two"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel" />
+
+    <TextView
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="233dp"
+        android:layout_marginLeft="233dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:layout_marginBottom="138dp"
+        android:text="@string/Three"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintHorizontal_bias="0.574"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/Four"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel" />
+
+    <TextView
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="286dp"
+        android:layout_marginEnd="175dp"
+        android:layout_marginRight="175dp"
+        android:layout_marginBottom="88dp"
+        android:text="@string/Five"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel" />
+
+    <TextView
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="231dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginRight="232dp"
+        android:layout_marginBottom="142dp"
+        android:text="@string/Six"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintHorizontal_bias="0.414"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="228dp"
+        android:layout_marginRight="228dp"
+        android:layout_marginBottom="212dp"
+        android:text="@string/Seven"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel" />
+
+    <TextView
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginRight="178dp"
+        android:layout_marginBottom="287dp"
+        android:text="@string/Eight"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/miniWheel"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/mini_wheel"
+        android:src="@drawable/arrowspinner"
+        app:layout_constraintBottom_toBottomOf="@+id/bigWheel"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toTopOf="@+id/bigWheel"
+        app:layout_constraintVertical_bias="0.480" />
+
+    <TextView
+        android:id="@+id/spinResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/buttonSpin"
+        app:layout_constraintEnd_toEndOf="@+id/bigWheel"
+        app:layout_constraintStart_toStartOf="@+id/bigWheel"
+        app:layout_constraintTop_toBottomOf="@+id/bigWheel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
